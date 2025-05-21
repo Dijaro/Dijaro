@@ -1,12 +1,113 @@
-- 👋 Hi, I’m @Dijaro
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dijaro | HR Solutions for Startups</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+    header {
+      background-color: #283e4a;
+      color: #fff;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      color: #283e4a;
+    }
+    .contact {
+      background-color: #e2e8f0;
+      padding: 1rem;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #283e4a;
+      color: #fff;
+    }
+    img.logo {
+      width: 120px;
+      margin-bottom: 1rem;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    input, textarea {
+      padding: 0.5rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 1rem;
+    }
+    button {
+      padding: 0.5rem;
+      background-color: #283e4a;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #1f2f38;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://via.placeholder.com/120x120.png?text=Logo" alt="Dijaro Logo" class="logo">
+    <h1>Dijaro</h1>
+    <p>Empowering Startups Through Strategic HR Solutions</p>
+  </header>
 
-<!---
-Dijaro/Dijaro is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+  <section>
+    <h2>About Us</h2>
+    <p>Dijaro is a dedicated Human Resources consultancy firm specializing in supporting startups and emerging businesses. We provide tailored HR solutions that align with your company's vision and growth objectives. Our services include talent acquisition, policy development, employee engagement strategies, and compliance management.</p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Recruitment and Talent Acquisition</li>
+      <li>HR Policy and Procedure Development</li>
+      <li>Employee Relations and Engagement</li>
+      <li>Performance Management Systems</li>
+      <li>Compliance and Regulatory Guidance</li>
+    </ul>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <p>Email: info@dijaro.com</p>
+    <p>Phone: +20 123 456 7890</p>
+    <p>Website: www.dijaro.com</p>
+
+    <form action="#" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dijaro. All rights reserved.</p>
+  </footer>
+</body>
+</html>
