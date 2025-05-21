@@ -95,7 +95,7 @@
   <section class="contact">
     <h2>Contact Us</h2>
     <p>Email: info@dijaro.com</p>
-    <p>Phone: +20 123 456 7890</p>
+    <p>Phone: +201128661771</p>
     <p>Website: www.dijaro.com</p>
 
     <form action="#" method="POST">
